@@ -1,0 +1,7 @@
+CREATE TABLE Student (
+  sname VARCHAR(25) DEFAULT NULL,
+  semail VARCHAR(50) NOT NULL,
+  spass VARCHAR(25) DEFAULT NULL,
+  sdeg VARCHAR(25) DEFAULT NULL,
+  PRIMARY KEY (semail)
+);
